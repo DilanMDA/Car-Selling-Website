@@ -340,8 +340,9 @@ section {
   padding: 0 0.5rem;
 }
 
-.swiper-pagination-bullet-active {
-  background: var(--yellow);
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--yellow);
+  opacity: 1;
 }
 
 /* media queries */
